@@ -1,11 +1,9 @@
 // @ts-check
-import { getIntlData, humanDate, showWarning } from "../../core/utils.js";
+import { getIntlData, humanDate } from "../../core/utils.js";
 import { html } from "../../core/import-maps.js";
 import showLink from "../../core/templates/show-link.js";
 import showLogo from "../../core/templates/show-logo.js";
 import showPeople from "../../core/templates/show-people.js";
-
-const name = "w3c/templates/headers";
 
 const ccLicense = "https://creativecommons.org/licenses/by/4.0/legalcode";
 const w3cLicense = "https://www.w3.org/Consortium/Legal/copyright-documents";
